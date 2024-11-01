@@ -176,9 +176,11 @@ The project uses Docker Compose to set up each microservice along with the API G
 
 Steps to Build and Run
 Build and Start Services:
-'''bash
+
+bash
+
 docker-compose up --build
-'''
+
 Access API Gateway:
 Once all services are running, access the API Gateway at http://localhost:5000.
 Shut Down:
