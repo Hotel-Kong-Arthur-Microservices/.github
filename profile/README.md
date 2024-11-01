@@ -94,8 +94,6 @@ Refer to each service's README for specific API routes and request details.
 - [Environment Variables](#environment-variables)
 - [API Gateway](#api-gateway)
 - [Running with Docker](#running-with-docker)
-- [Testing](#testing)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -145,10 +143,10 @@ Ensure you have the following installed:
 ### Cloning the Repository
 Clone the main project repository and each individual microservice repository:
 
-'''bash
+```bash
 git clone https://github.com/Hotel-Kong-Arthur-Microservices/main_repository
 cd main_repository
-'''
+```
 
 ## Environment Variables
 
@@ -177,18 +175,17 @@ The project uses Docker Compose to set up each microservice along with the API G
 Steps to Build and Run
 Build and Start Services:
 
-bash
+```bash
 
 docker-compose up --build
+```
 
 Access API Gateway:
 Once all services are running, access the API Gateway at http://localhost:5000.
 Shut Down:
-'''bash
+```bash
 docker-compose down
-'''
-Integration Testing
-Integration tests for the API Gateway and service-to-service communication can be added in the main repository or dedicated test repository.
+```
 
 License
 
