@@ -175,11 +175,18 @@ The project uses Docker Compose to set up each microservice along with the API G
 
 Steps to Build and Run
 Build and Start Services:
+'''bash
 docker-compose up --build
-Sofie Amalie
+'''
 Access API Gateway:
 Once all services are running, access the API Gateway at http://localhost:5000.
 Shut Down:
-Sofie Amalie
-Sofie Amalie Thorlund
+'''bash
 docker-compose down
+'''
+Integration Testing
+Integration tests for the API Gateway and service-to-service communication can be added in the main repository or dedicated test repository.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
