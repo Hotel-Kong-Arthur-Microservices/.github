@@ -105,3 +105,5 @@ docker-compose down
 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Lavet af Viktor, Natazja og Sofie :D
