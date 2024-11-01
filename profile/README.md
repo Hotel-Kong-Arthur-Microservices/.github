@@ -63,7 +63,6 @@ Ensure you have the following installed:
 ### Cloning the Repository
 Clone the main project repository and each individual microservice repository:
 
-```bash
 git clone https://github.com/Hotel-Kong-Arthur-Microservices/main_repository
 cd main_repository
 
@@ -149,6 +148,8 @@ Clone the main project repository and each individual microservice repository:
 ```bash
 git clone https://github.com/Hotel-Kong-Arthur-Microservices/main_repository
 cd main_repository
+'''
+
 Environment Variables
 
 Each service requires specific environment variables for configuration, which can be defined in an .env file in each service directory. Example variables:
